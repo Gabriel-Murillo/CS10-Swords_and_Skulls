@@ -2,8 +2,7 @@
 import random
 import sys
 import pickle
-#Font
-# "\x1B[3m Remember to scroll up! \x1B[23m
+
 while True:
     print "------------------------------------------------------------------------"
     print "Remember to scroll up! The screen is only so big."
@@ -25,21 +24,12 @@ while True:
     else:
         break
         print "------------------------------------------------------------------------"
-    
-#while True:  
-#    print "Type in a three digit number..."
-#    teh_number = raw_input("> ")
-#    print
-#          
-#    if len(teh_number) <= 3:
-#        break
 
 print "------------------------------------------------------------------------"
 print "%s the Monster Hunter" %name
 print "------------------------------------------------------------------------"
-#print "\"Without reflection, we go blindly on our way, creating more unintended \
+#"\"Without reflection, we go blindly on our way, creating more unintended \
 #consequences, and failing to achieve anything useful.\" -Margaret J. Wheatley" 
-#print
 print "Our protagonist is named %s the Monster Hunter. Where ever there are \
 monsters, %s is sure to be there. Most of the time, %s will accept a task and \
 complete it with no hassle. Some times, however, there is more depth to the task \
@@ -113,7 +103,7 @@ drink or not from Mar.", 0)
 Candle_Counter = Counter("Candle Counter", "Used to keep track of how many puzzles \
 the player has solved", 0)
 
-APuzzle = Counter("Puzzle A Counter", "I'm too lazy to write a description", 0)
+APuzzle = Counter("Puzzle A Counter", "I'm too lazy to write a description", 0) #The "counter" descriptions will never be read in game.
 
 BPuzzle = Counter("Puzzle A Counter", "I'm too lazy to write a description", 0)
 
@@ -347,7 +337,7 @@ class Player(object):
         '''
         The combat system. The player will attack first and then the enemy will attack. The player will 
         exit combat when either the player or the enemy have been defeated. A defeat will result in a GAME OVER.
-        ---WIP---
+        UPDATE: 3.18.2017. I forgot to delete "--WIP--" when I finished the project. Now it is deleted.
         '''
             
         if enemy.health > 0:
@@ -1144,8 +1134,8 @@ a weapon. It seems to be waiting for you to walk up to it.")
 
 Kill = Room("Red Summit", "Finis", None, None, None, None, None, "Red_Stairway", [Empty],
 "You are alongside the corpse of Red, leader of the Knights of Red and a warrior \
-of legends. The Burning Tree is no longer in flame, it is serene. Head to the Chief's \
-Palace to obtain your reward. Climb down the mountain.")
+of legend. The Burning Tree is no longer aflame, it is serene. Head to the Chief's \
+Palace to obtain your reward. But first, climb down the mountain.")
 #-------------------------------------------------------------------------------
 File1_Name = "Empty"
 File2_Name = "Empty"
@@ -2531,8 +2521,8 @@ front of you. He is more of a demon, now, than a man. He opens his mouth to spea
 his voice is harsh like an ogre's."
                 print
                 print "Red: I have gone through hell to get this far, to protect \
-the beasts of the mountain from the putrid wastes that call themselves humans that \
-reside in Red Town. They care not about the beasts's well-being... they care only \
+the beasts of the mountain from those vile creatures that call themselves \"civilized.\" \
+They care not about the beasts's well-being... they care only \
 about how much wealth they can obtain from murdering them and selling their. You \
 killed my Knights, it is alright. The Mountain still has me as a protector, and \
 I will not let you kill me... at least not without a fight. So, draw your weapon \
