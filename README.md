@@ -1,0 +1,2 @@
+# swords-skulls
+Whoops, accidentally deleted the entire repository instead of an old branch. This is my sophomore project, programmed in Python. I wanted to go for a story that was simple yet captivating, a reason to continue fighting and moving further into the game's combat system. I was inspired by games of yore with simple, straightforward stories, like "The Legend of Zelda." The game mechanics were inspired by modern RPGs, such as "The Witcher 3," even though I use a turn-based combat system. I hope you enjoy, and thank you for your time.
